@@ -1,0 +1,6 @@
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.exe.config
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.exe
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\bin\Debug\CrackingTheCodingInterview.pdb
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.csprojResolveAssemblyReference.cache
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.exe
+C:\Git\CrackingTheCodingInterview\CrackingTheCodingInterview\obj\Debug\CrackingTheCodingInterview.pdb
