@@ -45,14 +45,18 @@
   <ItemGroup>
     <Compile Include="Assert.cs" />
     <Compile Include="ISolution.cs" />
+    <Compile Include="Moderate\BisectSquares.cs" />
+    <Compile Include="Moderate\DivingBoard.cs" />
     <Compile Include="Moderate\EnglishInt.cs" />
     <Compile Include="Moderate\Intersection.cs" />
+    <Compile Include="Moderate\LivingPeople.cs" />
     <Compile Include="Moderate\NumberMax.cs" />
     <Compile Include="Moderate\NumberSwapper.cs" />
     <Compile Include="Moderate\Operations.cs" />
     <Compile Include="Moderate\SmallestDifference.cs" />
     <Compile Include="Moderate\TicTacWin.cs" />
     <Compile Include="Moderate\WordFrequencies.cs" />
+    <Compile Include="Moderate\XMLEncoding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
