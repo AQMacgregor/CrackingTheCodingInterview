@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assert.cs" />
+    <Compile Include="Classes\Coordinate.cs" />
+    <Compile Include="Classes\Line.cs" />
+    <Compile Include="Classes\Square.cs" />
     <Compile Include="ISolution.cs" />
+    <Compile Include="Moderate\BestLine.cs" />
     <Compile Include="Moderate\BisectSquares.cs" />
     <Compile Include="Moderate\DivingBoard.cs" />
     <Compile Include="Moderate\EnglishInt.cs" />

@@ -27,9 +27,10 @@ namespace CrackingTheCodingInterview
                     Console.WriteLine(" Passed");
                     testCount++;
                 }
-                catch(AssertionException)
+                catch(AssertionException e)
                 {
                     Console.WriteLine(" Assertion Failure");
+                    Console.WriteLine(e);
                     failureCount++;
                 }
                 catch(Exception e)

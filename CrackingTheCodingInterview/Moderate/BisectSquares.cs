@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CrackingTheCodingInterview.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,45 +9,6 @@ namespace CrackingTheCodingInterview.Moderate
 {
     class BisectSquares : ISolution
     {
-        class Coordinate
-        {
-            public Coordinate(double x, double y)
-            {
-                X = x;
-                Y = y;
-            }
-            public double X;
-            public double Y;
-        }
-        class Square
-        {
-            public Square(Coordinate bl, Coordinate tr)
-            {
-                BottomLeft = bl;
-                TopRight = tr;
-            }
-            public Coordinate BottomLeft;
-            public Coordinate TopRight;
-            public Coordinate FindCenter()
-            {
-                return new Coordinate(BottomLeft.X + (TopRight.X - BottomLeft.X)/2, BottomLeft.Y +(TopRight.Y - BottomLeft.Y)/2);
-            }
-        }
-        class Line
-        {
-            public Line(Coordinate s, Coordinate e)
-            {
-                Start = s;
-                End = e;
-            }
-            public Coordinate Start;
-            public Coordinate End;
-            public double GetSlope()
-            {
-                //dy/dx
-                return (End.Y - Start.Y) / (End.X - Start.X);
-            }
-        }
         Line Bisect(Square s1, Square s2)
         {
             if (s1.BottomLeft.Y > s2.BottomLeft.Y)
