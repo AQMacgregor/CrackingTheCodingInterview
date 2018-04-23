@@ -12,7 +12,7 @@ namespace CrackingTheCodingInterview.Moderate
         {
             var aBigger = ((a - b) >> 31) + 1;
             var bBigger = ((b - a) >> 31) + 1;
-        return a * aBigger + b * bBigger;
+            return a * aBigger + b * bBigger;
         }
         public void Test()
         {

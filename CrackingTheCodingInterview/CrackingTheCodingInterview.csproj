@@ -50,14 +50,18 @@
     <Compile Include="ISolution.cs" />
     <Compile Include="Moderate\BestLine.cs" />
     <Compile Include="Moderate\BisectSquares.cs" />
+    <Compile Include="Moderate\ContiguousSequence.cs" />
     <Compile Include="Moderate\DivingBoard.cs" />
     <Compile Include="Moderate\EnglishInt.cs" />
     <Compile Include="Moderate\Intersection.cs" />
     <Compile Include="Moderate\LivingPeople.cs" />
+    <Compile Include="Moderate\Mastermind.cs" />
     <Compile Include="Moderate\NumberMax.cs" />
     <Compile Include="Moderate\NumberSwapper.cs" />
     <Compile Include="Moderate\Operations.cs" />
+    <Compile Include="Moderate\PatternMatching.cs" />
     <Compile Include="Moderate\SmallestDifference.cs" />
+    <Compile Include="Moderate\SubSort.cs" />
     <Compile Include="Moderate\TicTacWin.cs" />
     <Compile Include="Moderate\WordFrequencies.cs" />
     <Compile Include="Moderate\XMLEncoding.cs" />
@@ -66,6 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hard\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
