@@ -43,10 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Other\MinChange.cs" />
+    <Compile Include="Other\OOTest.cs" />
     <Compile Include="Assert.cs" />
     <Compile Include="Classes\Coordinate.cs" />
     <Compile Include="Classes\Line.cs" />
     <Compile Include="Classes\Square.cs" />
+    <Compile Include="Hard\AddWithoutPlus.cs" />
+    <Compile Include="Hard\BabyNames.cs" />
+    <Compile Include="Hard\CircusTower.cs" />
+    <Compile Include="Hard\LettersAndNumbers.cs" />
+    <Compile Include="Hard\MissingNumber.cs" />
+    <Compile Include="Hard\NumberOfNinM.cs" />
+    <Compile Include="Hard\RandomSort.cs" />
+    <Compile Include="Hard\Shuffle.cs" />
     <Compile Include="ISolution.cs" />
     <Compile Include="Moderate\BestLine.cs" />
     <Compile Include="Moderate\BisectSquares.cs" />
@@ -65,15 +75,14 @@
     <Compile Include="Moderate\TicTacWin.cs" />
     <Compile Include="Moderate\WordFrequencies.cs" />
     <Compile Include="Moderate\XMLEncoding.cs" />
+    <Compile Include="Other\BitStuff.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Hard\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
